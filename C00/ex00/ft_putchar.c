@@ -10,7 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include <unistd.h> // pour le write
+#include <stdio.h> //pour la vrai fonction putchar (pas obligatiore) 
 
 void	ft_putchar(char c)
 {
@@ -19,6 +20,7 @@ void	ft_putchar(char c)
 /*
 int	main(void)
 {
-	ft_putchar('S');
+	ft_putchar('S');// ma fonction
+ 	putchar('S');
 }
 */
